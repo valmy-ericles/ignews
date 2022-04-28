@@ -1,0 +1,386 @@
+{
+  "slices": {
+    "components": {
+      "document": {
+        "library": "slices",
+        "id": "document",
+        "name": "Document",
+        "description": "Document",
+        "model": {
+          "id": "document",
+          "type": "SharedSlice",
+          "name": "Document",
+          "description": "Document",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Document",
+              "primary": {},
+              "items": {
+                "teste": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Teste",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "teste",
+              "name": "teste",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Document",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Aprendendo Prismic",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading1"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "items": {
+                "teste": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Teste",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "document",
+            "items": [
+              {
+                "teste": [
+                  {
+                    "type": "paragraph",
+                    "text": "Sunt excepteur aliquip do adipisicing non cillum reprehenderit aute officia exercitation veniam ea. Nostrud nisi quis deserunt pariatur eu elit ipsum consequat pariatur elit est labore anim.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "teste": [
+                  {
+                    "type": "paragraph",
+                    "text": "Excepteur magna anim incididunt. Officia do aute eiusmod officia amet.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "teste": [
+                  {
+                    "type": "paragraph",
+                    "text": "Ea tempor aliqua irure laboris dolore quis sint sunt exercitation.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "teste": [
+                  {
+                    "type": "paragraph",
+                    "text": "Amet tempor reprehenderit culpa dolor officia sint nostrud tempor exercitation.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "teste": [
+                  {
+                    "type": "paragraph",
+                    "text": "Ullamco aliqua elit et officia ipsum aute ad irure et do commodo.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "teste": [
+                  {
+                    "type": "paragraph",
+                    "text": "Commodo do Lorem nisi.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {}
+          },
+          "teste": {
+            "variation": "teste",
+            "name": "teste",
+            "slice_type": "document",
+            "items": [
+              {
+                "teste": [
+                  {
+                    "type": "paragraph",
+                    "text": "Esse amet est laborum nulla consequat cillum ut est dolore dolor ut qui aute. Aliqua sit dolor officia cupidatat nulla eu deserunt mollit est et ea nulla irure aute cillum.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "teste": [
+                  {
+                    "type": "paragraph",
+                    "text": "Ipsum in adipisicing est aliquip. Nulla nisi ad commodo labore tempor.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Drive mission-critical models",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Consectetur in labore tempor sint occaecat cillum voluptate aute nostrud duis adipisicing magna.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "teste2": {
+        "library": "slices",
+        "id": "teste2",
+        "name": "Teste2",
+        "description": "Teste2",
+        "model": {
+          "id": "teste2",
+          "type": "SharedSlice",
+          "name": "Teste2",
+          "description": "Teste2",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Teste2",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "items": {
+                "": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "teste2",
+            "items": [
+              {
+                "": [
+                  {
+                    "type": "paragraph",
+                    "text": "Ipsum ad commodo cillum cupidatat ex elit. Id id tempor minim quis enim in labore duis.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "": [
+                  {
+                    "type": "paragraph",
+                    "text": "Mollit cillum nostrud consequat dolor irure deserunt sunt do labore. Elit fugiat ullamco occaecat consequat.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "": [
+                  {
+                    "type": "paragraph",
+                    "text": "Eu deserunt nostrud velit commodo minim aliqua anim aliqua quis culpa excepteur. Nulla tempor enim ea laboris dolor do magna est sunt ea tempor eu sunt. Laborum fugiat sint labore deserunt est eu magna incididunt.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "": [
+                  {
+                    "type": "paragraph",
+                    "text": "Pariatur nostrud fugiat Lorem sit nulla ut adipisicing duis magna sint. Sunt ad reprehenderit deserunt laboris dolor consectetur deserunt amet commodo reprehenderit dolore minim. Enim consectetur est est irure ullamco sit consectetur.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "": [
+                  {
+                    "type": "paragraph",
+                    "text": "Non eiusmod reprehenderit et pariatur excepteur consequat. Magna deserunt dolore exercitation magna officia proident labore sint.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Brand holistic applications",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Quis elit laborum incididunt elit duis tempor voluptate ullamco ea esse velit magna ex aute.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "teste_slice": {
+        "library": "slices",
+        "id": "teste_slice",
+        "name": "TesteSlice",
+        "description": "TesteSlice",
+        "model": {
+          "id": "teste_slice",
+          "type": "SharedSlice",
+          "name": "TesteSlice",
+          "description": "TesteSlice",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TesteSlice",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "teste_slice",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Orchestrate distributed portals",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Exercitation qui ea consectetur sint.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      }
+    }
+  }
+}
